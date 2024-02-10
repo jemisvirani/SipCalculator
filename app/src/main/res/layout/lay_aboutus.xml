@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/app_img"
+        android:background="@drawable/splash_img"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/text_title"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="SIP Calculator"
+        android:layout_below="@+id/app_img"
+        android:layout_centerInParent="true" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/lay_appVersion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_title">
+
+        <TextView
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:id="@+id/txt_appversion"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="APP Version :" />
+
+        <TextView
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:id="@+id/txt_versionName"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.2" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scroll_support"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay_appVersion">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/lay_aboutus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textSize="14sp"
+                    android:id="@+id/txt_aboutus1"
+                    android:paddingLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_aboutus1" />
+
+                <TextView
+                    android:textSize="14sp"
+                    android:id="@+id/txt_aboutus2"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_aboutus2" />
+            </LinearLayout>
+
+            <TextView
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/txt_support"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Support" />
+
+            <TextView
+                android:textSize="14sp"
+                android:id="@+id/txt_aboutus3"
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_aboutus3" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:textSize="14sp"
+                    android:id="@+id/txt_contact"
+                    android:paddingLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Please Contact:" />
+
+                <TextView
+                    android:textSize="14sp"
+                    android:textColor="#ff0000"
+                    android:id="@+id/txt_mail"
+                    android:paddingLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="info@eclatsol.com" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

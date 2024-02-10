@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_13sdp"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_1"
+                android:fontFamily="@font/lato_bold"
+                android:includeFontPadding="false"
+                android:textSize="@dimen/_14ssp"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:layout_marginTop="@dimen/_10sdp"
+                android:id="@+id/etAmount"
+                android:paddingHorizontal="@dimen/_13sdp"
+                android:hint="Please enter amount"
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:imeOptions="actionNext"
+                android:textSize="@dimen/_14ssp"
+                android:textCursorDrawable="@color/orange"
+                android:textColor="@color/black"
+                android:layout_height="@dimen/_45sdp"
+                android:background="@drawable/bg_et_shape" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_2"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/lato_bold"
+                android:includeFontPadding="false"
+                android:textSize="@dimen/_14ssp"
+                android:textColor="@color/black" />
+
+
+            <EditText
+                android:layout_marginTop="@dimen/_10sdp"
+                android:id="@+id/etPeroid"
+                android:paddingHorizontal="@dimen/_13sdp"
+                android:hint="Please enter peroid"
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:imeOptions="actionNext"
+                android:textSize="@dimen/_14ssp"
+                android:textCursorDrawable="@color/orange"
+                android:textColor="@color/black"
+                android:layout_height="@dimen/_45sdp"
+                android:background="@drawable/bg_et_shape" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_0"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/lato_bold"
+                android:includeFontPadding="false"
+                android:textSize="@dimen/_14ssp"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:layout_marginTop="@dimen/_10sdp"
+                android:id="@+id/etAnnualReturns"
+                android:paddingHorizontal="@dimen/_13sdp"
+                android:hint="Please enter annual returns"
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:imeOptions="actionDone"
+                android:textSize="@dimen/_14ssp"
+                android:textCursorDrawable="@color/orange"
+                android:textColor="@color/black"
+                android:layout_height="@dimen/_45sdp"
+                android:background="@drawable/bg_et_shape" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_7"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/lato_bold"
+                android:includeFontPadding="false"
+                android:textSize="@dimen/_14ssp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tvStartDate"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:textColor="@color/black"
+                android:paddingHorizontal="@dimen/_13sdp"
+                android:textSize="@dimen/_14ssp"
+                android:hint="Please select date"
+                android:background="@drawable/bg_et_shape"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_13sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btReset"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:textSize="@dimen/_16ssp"
+            android:background="@drawable/bg_et_shape"
+            android:text="@string/text_10" />
+
+        <Button
+            android:id="@+id/btCalculate"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/orange"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16ssp"
+            android:background="@drawable/bg_et_shape"
+            android:text="@string/btnclaculate" />
+    </LinearLayout>
+
+</LinearLayout>

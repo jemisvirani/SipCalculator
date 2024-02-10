@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/white"
+    android:layout_marginHorizontal="@dimen/_5sdp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/lay_details"
+        android:padding="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="7">
+
+        <TextView
+            android:textSize="@dimen/_10ssp"
+            android:textColor="@color/orange"
+            android:gravity="center"
+            android:id="@+id/tvSrNo"
+            android:fontFamily="@font/lato_bold"
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Sr. No"
+            android:layout_weight="0.3" />
+
+        <TextView
+            android:textSize="@dimen/_10ssp"
+            android:textColor="@color/orange"
+            android:gravity="center"
+            android:id="@+id/tvDate"
+            android:padding="0dp"
+            android:fontFamily="@font/lato_bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0dp"
+            android:text="Date"
+            android:layout_weight="1" />
+
+        <TextView
+            android:textColor="@color/orange"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:fontFamily="@font/lato_bold"
+            android:id="@+id/tvIntrestCalculatedOn"
+            android:padding="0dp"
+            android:textSize="@dimen/_10ssp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0dp"
+            android:text="Interest Calculated on"
+            android:maxLines="2"
+            android:layout_weight="1" />
+
+        <TextView
+            android:textSize="@dimen/_10ssp"
+            android:textColor="@color/orange"
+            android:gravity="center"
+            android:fontFamily="@font/lato_bold"
+            android:id="@+id/tvInterest"
+            android:padding="0dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0dp"
+            android:text="Interest"
+            android:layout_weight="1" />
+
+        <TextView
+            android:textSize="@dimen/_10ssp"
+            android:textColor="@color/orange"
+            android:gravity="center"
+            android:id="@+id/tvClosingAmt"
+            android:padding="0dp"
+            android:fontFamily="@font/lato_bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0dp"
+            android:text="Closing Amount"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <View
+        android:background="@color/black"
+        android:padding="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="3dp"
+        android:layout_below="@+id/lay_details" />
+</RelativeLayout>

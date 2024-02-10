@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_maturityDAte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Value"
+        android:layout_marginHorizontal="@dimen/_13sdp"
+        android:fontFamily="@font/lato_bold"
+        android:includeFontPadding="false"
+        android:textSize="@dimen/_14ssp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/txt_maturityDate"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:text="000"
+        android:paddingStart="@dimen/_13sdp"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_et_shape"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginHorizontal="@dimen/_13sdp"
+        android:fontFamily="@font/lato_regular"
+        android:includeFontPadding="false"
+        android:textSize="@dimen/_14ssp"
+        android:textColor="@color/black" />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginHorizontal="@dimen/_13sdp"
+        android:background="@drawable/bg_et_shape"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleRecurringDetail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:text="@string/hello_blank_fragment" />
+    </LinearLayout>
+
+</LinearLayout>

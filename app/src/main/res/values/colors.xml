@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorAccent">#a9a9a9</color>
+    <color name="colorPrimary">#40569b</color>
+    <color name="colorPrimaryDark">#40569b</color>
+    <color name="stroke_fc_color">#cdd2e5</color>
+    <color name="toolbar_color">#40569b</color>
+    <color name="txt_fc_color">#2e4b98</color>
+    <color name="view_color">#dddddd</color>
+    <color name="background_fc_color">#ebeef5</color>
+    <color name="orange">#FD8103</color>
+
+</resources>

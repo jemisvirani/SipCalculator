@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SipCalculator</string>
+    <string name="Rs">₹</string>
+    <string name="btnclaculate">Calculate</string>
+    <string name="text_10">Reset</string>
+    <string name="text_11">Next time</string>
+
+    <string name="txt_aboutus">About us</string>
+    <string name="txt_aboutus1">Our SIP calculator helps you to calculate the future value of your invested amount in any Mutual Fund, Bank Deposits, Fixed Deposit or Post Office.</string>
+    <string name="txt_aboutus2">Just enter your Monthly Invested amount, Investment period and Expected return rate percentage (%) and the date when you have started your monthly saving and this app will calculate the current value of your deposit and this will also show the final amount of your saving at the end of your invested period.</string>
+    <string name="txt_aboutus3">For any support, queries and improvements related to this app.</string>
+    <string name="text_13">Sip Amount Invested</string>
+    <string name="text_12">Current Value</string>
+    <string name="text_15">More Details</string>
+    <string name="text_14">Sip Expected Amount</string>
+    <string name="text_0">Sip Expected Annual Returns <font fgcolor="#FD8103">(%)</font></string>
+    <string name="text_1">Sip Investment Amount <font fgcolor="#FD8103">(Monthly)</font></string>
+    <string name="text_2">Sip Investment Peroid <font fgcolor="#FD8103">(Years)</font></string>
+    <string name="text_3">Investment Returns</string>
+    <string name="text_4">Other Options</string>
+    <string name="text_5">Rate this App</string>
+    <string name="text_6">Share this App</string>
+    <string name="text_7">Sip Start Date of Investment</string>
+    <string name="text_8">SIP Calculator</string>
+    <string name="text_9">Sip Wealth Gain</string>
+    <string name="update">Update</string>
+    <string name="update_available">Update available</string>
+    <string name="hello_blank_fragment">hello_blank_fragment</string>
+
+</resources>
